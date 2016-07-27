@@ -1,0 +1,45 @@
+.block-style {
+  color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  position: absolute;
+  border: 3px solid black; }
+  .block-style.blockA {
+    top: 500px;
+    background-color: red; }
+  .block-style.blockB {
+    background-color: orange;
+    left: 75px;
+    top: 425px; }
+  .block-style.blockC {
+    background-color: yellow;
+    left: 125px;
+    top: 350px; }
+  .block-style.blockD {
+    background-color: black;
+    left: 200px;
+    top: 275px; }
+  .block-style.blockE {
+    background-color: green;
+    left: 275px;
+    top: 200px; }
+  .block-style.blockF {
+    background-color: blue;
+    left: 350px;
+    top: 125px; }
+  .block-style.blockG {
+    background-color: purple;
+    left: 425px;
+    top: 50px; }
+
+.level1 {
+  z-index: 100; }
+
+.level2 {
+  z-index: 200; }
+
+.level3 {
+  z-index: 300; }
